@@ -12,7 +12,7 @@ builder.Services.AddHostedService<MessageBusSubscriber>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configured the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
